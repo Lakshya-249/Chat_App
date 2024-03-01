@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>CHAT APPLICATION</h1>
+    <div class="contain" id="chatt">
+        <div class="incoming">
+            <h4>proto1</h4>
+            <p>how are you...</p>
+        </div>
+        <div class="sending">
+            <h4>proto2</h4>
+            <p>bhadiya bhai tu bta kaisa hai</p>
+        </div>
+    </div>
+    <div class="cont2">
+        <input type="text" name="text" id="write" placeholder="write your message here">
+        <button id="submit">Send</button>
+    </div>
+    
+    <script src="/socket.io/socket.io.js"></script>
+    <script defer src="client.js"></script>
+</body>
+</html>
